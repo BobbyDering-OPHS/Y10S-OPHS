@@ -1,0 +1,38 @@
+#this is a comment
+#comments are for humans
+#python ignores comments
+#humans use comments to describe source code
+
+#Variables taught via Basketball
+
+team1name = "rosa parks"
+team2name = "martin luther king"
+
+#a variable is a named/identifier location
+#in a computers memory
+#that stores a value
+#the value can change
+
+team1score = 0
+team2score = 0
+
+team1player1fouls = 0
+team1player2fouls = 0
+team1player3fouls = 0
+team1player4fouls = 0
+team1player5fouls = 0
+
+team2player1fouls = 0
+team2player2fouls = 0
+team2player3fouls = 0
+team2player4fouls = 0
+team2player5fouls = 0
+
+#CONSTANTS
+#constants are like variables but different
+#developers code them in FULL CAPS
+#the value in a constant does not change
+
+FREETHROW = 1
+NORMALBASKET = 2
+THREEPOINTBASKET = 3
