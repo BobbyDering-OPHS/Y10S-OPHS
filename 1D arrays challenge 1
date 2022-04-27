@@ -1,3 +1,10 @@
+cars []
+cars.append(input("enter car brand1")
+cars.append(input("enter car brand2")
+cars.append(input("enter car brand3")
+print(cars)     
+
+
 Enter car brand1 >>>ford
 Enter car brand2 >>>lamboghini
 Enter car brand3 >>>toro rosso
