@@ -1,0 +1,4 @@
+Enter car brand1 >>>ford
+Enter car brand2 >>>lamboghini
+Enter car brand3 >>>toro rosso
+['ford', 'lamboghini', 'toro rosso']
