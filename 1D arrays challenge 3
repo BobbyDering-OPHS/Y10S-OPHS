@@ -1,0 +1,22 @@
+names = []
+
+name1 = str(input("Enter the name of the first person you want to invite to the party >>> "))
+name2 = str(input("Enter the name of the second person you want to invite to the party >>> "))
+name3 = str(input("Enter the name of the third person you want to invite to the party >>> "))
+
+names.append(name1)
+names.append(name2)
+names.append(name3)
+
+sentry = True
+while sentry == True:
+     choice = str(input("Do you want to enter more names? (Y/N) >>> ")).lower()
+     if choice == "y":
+         name = str(input("Enter the name of the next person you want to invite to the party >>> "))
+         names.append(name)
+     if choice == "n":
+         people = len(names)
+         print("You have invited ",people,"people.")
+         print("Exiting...")
+         sentry = False
+         
